@@ -1,0 +1,14 @@
+# Core deep learning stack. TensorFlow 2.16+ uses Keras 3.
+tensorflow>=2.16,<2.21
+numpy>=1.26,<3.0
+pandas>=2.0
+matplotlib>=3.8
+scikit-learn>=1.4
+
+# Experiment 2: framework comparison (preinstalled on Colab and Kaggle)
+torch>=2.2
+
+# Notebook tooling and validation
+nbformat>=5.9
+ipykernel>=6.29
+jupyterlab>=4.0

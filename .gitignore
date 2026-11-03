@@ -1,0 +1,85 @@
+# ============================================================
+# Environment and secrets
+# ============================================================
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# ============================================================
+# Jupyter
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================================
+# Model artifacts and experiment outputs
+# ============================================================
+outputs/
+models/
+artifacts/
+runs/
+wandb/
+lightning_logs/
+tensorboard/
+*.keras
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+*.tflite
+*.savedmodel
+
+# ============================================================
+# Datasets (downloaded at runtime from public URLs)
+# ============================================================
+data/*
+!data/README.md
+*.npz
+*.npy
+*.csv
+*.tsv
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.xz
+*.gz
+
+# ============================================================
+# Logs
+# ============================================================
+*.log
+
+# ============================================================
+# Editor and OS files
+# ============================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.code-workspace
