@@ -11,7 +11,7 @@ from a public URL at runtime and lets TensorFlow/Keras cache it under
 | MNIST | Experiments 5, 6, 9, 10 | https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz | `~/.keras/datasets/mnist.npz` |
 | CIFAR-10 | Experiment 7 | https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz | `~/.keras/datasets/cifar-10-python.tar.gz` |
 | IMDB reviews | Experiments 8, 10 | https://storage.googleapis.com/tensorflow/tf-keras-datasets/imdb.npz | `~/.keras/datasets/imdb.npz` |
-| IMDB word index | Experiment 8 | https://storage.googleapis.com/tensorflow/tf-keras-datasets/imdb_word_index.json | `~/.keras/datasets/imdb_word_index.json` |
+| IMDB word index | Experiments 8, 10 | https://storage.googleapis.com/tensorflow/tf-keras-datasets/imdb_word_index.json | `~/.keras/datasets/imdb_word_index.json` |
 | Iris | Experiment 2 | https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv | pandas URL cache (in memory) |
 
 Synthetic data for Experiments 1, 3, 4, and the sequence-reversal task in
