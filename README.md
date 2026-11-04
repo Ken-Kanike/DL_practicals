@@ -187,7 +187,7 @@ remain the work of their authors.
 
 ## Author
 
-**Junaid** · [GitHub: Ken-Kanike](https://github.com/Ken-Kanike)
+**Junaid Shaikh** · [GitHub: Ken-Kanike](https://github.com/Ken-Kanike)
 
 If you find an error or have a suggestion, open an issue on the
 [repository](https://github.com/Ken-Kanike/DL_practicals/issues).
